@@ -1,4 +1,5 @@
 import React from 'react'
+import FormHero from './FormHero'
 
 const Hero = () => {
   return (
@@ -9,6 +10,8 @@ const Hero = () => {
         <h1 className='font-playfair text-2xl md:text-5xl md:text-[56px] md:leading-[56px]
         font-bold md:font-extrabold mt-4 max-w-xl'>Discover Your Perfect Destination</h1>
         <p className='max-w-130 mt-2 text-sm md:text-base'>Unparalled luxury and comfort at World's most exclusive Hotels and resorts</p>
+
+      <FormHero/>
       
     </div>
   )
