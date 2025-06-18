@@ -5,7 +5,7 @@ import { assets } from "../assets/assets";
 const Header = () => {
     const navLinks = [
         { name: 'Home', path: '/' },
-        { name: 'Hotels', path: '/room' },
+        { name: 'Hotels', path: '/rooms' },
         { name: 'Experience', path: '/' },
         { name: 'About', path: '/' },
     ];
